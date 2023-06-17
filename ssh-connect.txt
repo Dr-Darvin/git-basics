@@ -1,0 +1,29 @@
+create a ssh key 
+    ssh-keygen
+
+copy the contsnts of publi key  
+    clip < ~/.ssh/id_rsa.pub
+
+paste in the github ssh key
+
+
+configure ssh configs
+    go to ~/.ssh/config  (if not available create)
+    add below contents
+        Host github.com
+        user git
+        hostname github.com
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/git-key #use your public key location
+        IdentitiesOnly yes
+
+go to the .git folder in git repo and add folowing to the end
+      [user]
+        name = dr-darvin
+        email = isuru.etam@gmail.com
+
+  #########   OR     ################
+
+ type below commands  
+    git config user.name <your_github_username>
+    git config user.email <your_github_email>
