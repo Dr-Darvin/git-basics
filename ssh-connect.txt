@@ -27,3 +27,9 @@ go to the .git folder in git repo and add folowing to the end
  type below commands  
     git config user.name <your_github_username>
     git config user.email <your_github_email>
+
+######################################################
+
+to push the code to repo forcefully 
+
+git push origin master --force
