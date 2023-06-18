@@ -1,0 +1,5 @@
+to pull a specific branch
+  git pull origin <branch_name>
+  
+to pull all branches
+  git fetch --all
