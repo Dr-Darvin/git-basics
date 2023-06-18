@@ -1,3 +1,8 @@
+initial push request
+  before this first add the remote origin by
+    git remote add  origin <remote repo https / ssh link>
+    
+
 to push for specific branch
   git push origin <Branch_name> # here origin means the remote repo location
 
