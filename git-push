@@ -1,0 +1,8 @@
+to push for specific branch
+  git push origin <Branch_name> # here origin means the remote repo location
+
+
+
+to push the code to repo forcefully 
+
+git push origin master --force
