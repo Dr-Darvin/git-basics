@@ -30,6 +30,4 @@ go to the .git folder in git repo and add folowing to the end
 
 ######################################################
 
-to push the code to repo forcefully 
 
-git push origin master --force
