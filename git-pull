@@ -1,3 +1,6 @@
+to pull 
+  git pull <https / ssh link> 
+  
 to pull a specific branch
   git pull origin <branch_name>
   
