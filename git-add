@@ -1,0 +1,7 @@
+add all file
+  git add .
+  
+ add specific files only
+  git add <file name>
+  
+ 
