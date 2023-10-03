@@ -1,14 +1,23 @@
-initial push request
-  before this first add the remote origin by
+# initial push request
+ # before this first add the remote origin by
     git remote add  origin <remote repo https / ssh link>
-    
 
-to push for specific branch
-  git commit -m "message"
-  git push origin <Branch_name> # here origin means the remote repo location
+# to push for specific branch
+# first update the remote with local
+    git pull origin
 
+# add the changes
+    git add
 
+# commit untrack files 
+    git commit -m "message"
 
+# then push
+    git push origin <Branch_name> # here origin means the remote repo location
+
+# or we can push to another remote branch from sitting on other local branches
+    git push origin <local_branh>:<remote_branch>
+
+** do not recommand **
 to push the code to repo forcefully 
-
-git push origin master --force
+  git push origin master --force
