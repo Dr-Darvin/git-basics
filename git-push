@@ -4,6 +4,7 @@ initial push request
     
 
 to push for specific branch
+  git commit -m "message"
   git push origin <Branch_name> # here origin means the remote repo location
 
 
