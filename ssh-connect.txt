@@ -20,7 +20,7 @@ configure ssh configs
 go to the .git folder in git repo and add folowing to the end
       [user]
         name = dr-darvin
-        email = isuru.etam@gmail.com
+        email = <your email>
 
   #########   OR     ################
 
