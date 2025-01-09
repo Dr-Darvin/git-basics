@@ -30,4 +30,12 @@ go to the .git folder in git repo and add folowing to the end
 
 ######################################################
 
+If get this error : Could not open a connection to your authentication agent. Do the following
+
+eval $(ssh-agent -s)
+ssh-add /home/darvin/.ssh/git-key
+ssh-add -l
+ssh -T git@github.com
+
+
 
